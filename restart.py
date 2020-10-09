@@ -14,7 +14,6 @@ def restart():
         print("Restarting program...\n")
         time.sleep(3)
         import Counter
-        Counter.start()
 
     elif user_restart_choice.lower() == 'n' or user_restart_choice.lower() == 'no':
         end.end()
